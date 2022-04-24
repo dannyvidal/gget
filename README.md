@@ -1,5 +1,5 @@
 # gget - git-dumper sandbox
-Creates a Docker ***Python*** image that installs **[git-dumper]("https://github.com/arthaud/git-dumper")** and then runs a container with git-dumper **-u url** **-o outputDirectory**
+Creates a Docker ***Python*** image that installs [git-dumper](https://github.com/arthaud/git-dumper) and then runs a container with git-dumper **-u url** **-o outputDirectory**
 
 ## prerequisites
 
