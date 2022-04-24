@@ -10,3 +10,14 @@ Creates a Docker ***Python*** image that installs [git-dumper](https://github.co
 $ go run main.go -u http://example.com/.git -o output/dir
 ```
 OR build the program
+
+
+### Notes on building
+
+The build does embed a Tarfile into the program so any changes to the Dockerfile you should run
+
+```bash
+$ tar -cvf Dockerfile.tar.gz Dockerfile
+```
+
+This is because the docker SDK expects a tarfile because just using a regular Dockerfile you get an EOF error
