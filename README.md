@@ -7,7 +7,7 @@ So this creates a sandboxed environment for safe use
 
 ## prerequisites
 
-* Docker Deamon CLI
+* Docker Daemon CLI
 
 ## How to use 
 ```bash
